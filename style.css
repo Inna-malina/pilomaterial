@@ -1,5 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background: url('images/new-planks-laid-evenly-close-up.jpg');
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
+    margin:0px;
+    padding: 0px;
+}
+
+.fone{
+    position: fixed;
+    z-index: -100;
+    
+}
+
+.boxes{
+    position: absolute;
+    background-color: rgb(255, 240, 226);
+}
+
+.min{
+    display: block;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.pop-up{
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.pop-up-activ{
+    opacity: 1;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.big{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    align-self: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.img-image{
+    width: 800px;
+    height: 500px;
+    align-self: center;
 }
