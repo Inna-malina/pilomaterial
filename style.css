@@ -10,12 +10,17 @@ body{
 .fone{
     position: fixed;
     z-index: -100;
+    width: 100%;
     
 }
 
 .boxes{
     position: absolute;
-    background-color: rgb(255, 240, 226);
+    /* max-width: 1200px; */
+    min-width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    background-color: #FFF3E0;
 }
 
 .min{
