@@ -107,6 +107,10 @@ nav .contact{
     border-bottom:2px solid rgba(255,204,128,0.5);
 }
 
+.box-min:hover{
+    background: rgb(255, 236, 207);
+}
+
 .min{
     display: block;
     align-self: center;
@@ -156,6 +160,43 @@ nav .contact{
     align-self: center;
 }
 
+/* ------tables-------- */
+.tables{
+    margin: 50px auto;
+    width: 92%;
+}
+
+table{
+    border-spacing: 5px;
+    /* margin: 50px auto; */
+}
+
+caption{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.heading{
+    background-color: #EF6C00;
+    color:#FFF3E0;
+    font-size: 18px;
+}
+
+.string{
+    background-color :#ffffff;
+}
+
+.grey{
+    /* background-color :#f3f3f3; */
+    background-color: rgb(255, 236, 207);
+}
+
+td{
+    width: 200px;
+    padding: 10px; 
+    font-size: 18px;   
+}
+
 
 /* -----address----- */
 .address{
@@ -163,3 +204,43 @@ nav .contact{
     width: 100%;
     text-decoration: none;
 }
+
+/* ----footer----- */
+footer{
+    background-color:#EF6C00;
+    /* background-color: #00C853; */
+    padding: 10px 50px;
+    padding-bottom: 70px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div p a,
+footer div,
+footer div i,
+footer div a{
+    align-self: center;
+
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.scroll{
+    cursor: pointer;
+    position: fixed;
+    bottom: 28px;
+    right: 42px;
+    visibility: hidden;
+}
+
+.scroll i{
+    font-size: 42px;
+    color:#00C853;
+}
+
+.scroll-2{
+    visibility: visible;
+}
+
