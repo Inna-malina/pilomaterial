@@ -1,3 +1,70 @@
+@media (max-width: 1240px){
+    .wrap{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        min-height: 110px;
+        justify-content: center;
+    }
+
+    .content{
+        position: relative;
+        width: 600px;
+        background-color: #FFF3E0;
+        left: 0%;
+        margin-left: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    nav {
+        min-height: 89px;
+        padding: 0 23px;
+    }
+
+    nav h1 {
+        font-size: 24px;
+    }
+
+    .map p{
+        align-self: center;
+        font-size: 12px;
+    }
+
+    .contact p a {
+        font-size: 12px;
+    }
+
+    .map i, .contact i {
+        font-size: 12px;
+        margin-right: 8px;
+    }
+
+    .min {
+        width: 200px;
+    }
+
+    .prise {
+        font-size: 14px;
+
+    }
+
+    caption {
+        margin-bottom: 12px;
+    }
+
+    td {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .big {
+        display: flex;
+        width: 768px;
+        height: 439px;
+    }
+}
+
 @media (max-width: 768px){
 
     .wrap{
@@ -168,3 +235,4 @@ footer div a{
 }
 
 }
+
